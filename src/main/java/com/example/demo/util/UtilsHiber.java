@@ -19,7 +19,7 @@ public class UtilsHiber {
             properties.put(Environment.DRIVER, "org.postgresql.Driver");
             properties.put(Environment.URL, "jdbc:postgresql://localhost:5432/CRM");
             properties.put(Environment.USER, "postgres");
-            properties.put(Environment.PASS, "2017546");
+            properties.put(Environment.PASS, "????????");
             properties.put(Environment.FORMAT_SQL, "true");
             properties.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
             properties.put(Environment.SHOW_SQL, "true");

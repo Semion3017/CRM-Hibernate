@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
 <Resource
-auth="Container"
 description="DB Connection"
-name="jdbc/ebackbay"
+name="CRM_Hibernate"
 type="javax.sql.DataSource"
 password=""
 driverClassName="com.postgresql.Driver"
 maxIdle="2"
 maxWait="5000"
-validationQuery="select * from testdata;"
 username="root"
 maxActive="4"/>
 <WatchedResource>WEB-INF/web.xml</WatchedResource>
